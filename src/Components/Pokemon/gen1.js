@@ -2,35 +2,35 @@ import React from 'react'
 
 import { getAllPokemon } from '../../lib/api'
 
-class gen1 extends React.Component {
+class Gen1 extends React.Component {
   state = {
-    pokemon: []
+    allPokemon: []
   }
 
-  async getPokemon() {
+  async componentDidMount() {
     const response = await getAllPokemon()
 
     this.setState({
-      pokemon: response.data
+      allPokemon: response.data
     })
-    console.log(this.state.pokemon)
+    console.log(this.state.allPokemon.pokemon_species)
   }
 
 
 
   render() {
-    if ( !this.state.pokemon ) return null
+    if ( !this.state.allPokemon.pokemon_species ) return null
     return (
-      <div className="section">
-        <div className="container">
-          <div className="columns is-multiline">
-            <div>hello</div>
+      <div>
+        { this.state.allPokemon.pokemon_species.map(pokemon => (
+          <div key={pokemon.name}>
+            {pokemon.name}
           </div>
-        </div>
+        )) }
       </div>
     )
   }
 
 }
 
-export default gen1
+export default Gen1
