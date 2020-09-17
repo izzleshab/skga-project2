@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+// import gen1 from '../Pokemon/gen1'
 
 import HomePage from './Components/Pages/HomePage'
 // import GamePage from './Components/Common/GamePage'
@@ -11,7 +12,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={HomePage}/>
+        <Route exact path="" component={HomePage}/>
       </Switch>
     </BrowserRouter>
     

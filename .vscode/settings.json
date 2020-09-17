@@ -1,0 +1,20 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "file-icons",
+  "editor.wordWrap": "on",
+  "eslint.alwaysShowStatus": true,
+  "window.zoomLevel": 1,
+  "files.autoSave": "off",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.excludeLanguages": [
+    
+
+
+    "markdown"
+  ]
+}
