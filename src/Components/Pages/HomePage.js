@@ -14,11 +14,11 @@ const HomePage = () => {
         Welcome to Guess that Pokemon! 
       </h1>
 
-      <h2 className="header is-strong">
+      <h2 className="title is-3  has-text-centered has-text-black">
         Choose a difficulty!
       </h2>
 
-      <Link to="/GamePage" className="button is-large is-center is-black has-border-white">Easy
+      <Link to="/GamePage" className="button is-large is-centered is-black has-border-white">Easy
       </Link>
 
       {/* <button className="button is-large is-center is-black">Medium</button>

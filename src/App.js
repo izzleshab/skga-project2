@@ -4,8 +4,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import HomePage from './Components/Pages/HomePage'
 import GamePage from './Components/Pages/GamePage'
-// import WinPage from './Components/Pages/WinPage'
-// import LossPage from './Components/Pages/LossPage'
+import WinPage from './Components/Pages/WinPage'
+import LosePage from './Components/Pages/LosePage'
 // import QuitPage from './Components/Pages/QuitPage'
 
 const App = () => {
@@ -14,6 +14,8 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={HomePage}/>
         <Route path="/GamePage" component={GamePage} />
+        <Route path="/WinPage" component={WinPage} />
+        <Route path="/LosePage" component={LosePage} />
       </Switch>
     </BrowserRouter>
     

@@ -17,10 +17,22 @@ class GamePage extends React.Component {
         <h1 className="title is-1 has-text-centered has-text-black"> 
         Click the name of the Pokemon below!</h1>
 
-        <Link to="/GamePage" className="button is-large is-center is-black has-border-white">Easy
+        <Link to="/WinPage" className="button is-large is-center is-black has-border-white">Pokemon #1
+        </Link> 
+        
+        <Link to="/WinPage" className="button is-large is-center is-black has-border-white">Pokemon #2
+        </Link> 
+        
+        <Link to="/LosePage" className="button is-large is-center is-black has-border-white">Pokemon #3
+        </Link>
+        
+        <Link to="/LosePage" className="button is-large is-center is-black has-border-white">Pokemon #4
         </Link>
 
-      
+        <div>
+          <Link to="/" className="button is-medium is-center is-link has-border-white">HomePage
+          </Link>
+        </div>
 
       </section>
     )
