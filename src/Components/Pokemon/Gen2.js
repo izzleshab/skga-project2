@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { getPokemon, getPokemonRandomArray } from '../../lib/api'
+import { getPokemon2, getPokemonRandomArray2 } from '../../lib/api'
 
-class Gen1 extends React.Component {
+class Gen2 extends React.Component {
   state = {
     allPokemonList: [],
     pokemon: '',
@@ -11,11 +11,11 @@ class Gen1 extends React.Component {
   }
 
   async componentDidMount() {
-    const pokemonListResponse = await getPokemon()
+    const pokemonListResponse = await getPokemon2()
     const pokeName = pokemonListResponse.data.name
     const pokeImage = pokemonListResponse.data.sprites.other['official-artwork'].front_default
     
-    const pokemonArrayResponse = await getPokemonRandomArray()
+    const pokemonArrayResponse = await getPokemonRandomArray2()
     const allPokemonList = pokemonArrayResponse.data.results.name
     
     this.setState({
@@ -25,7 +25,7 @@ class Gen1 extends React.Component {
     })
     
     const randomNameGen = () => {
-      return Math.ceil(Math.random() * 151)
+      return Math.ceil(Math.random() * 251)
     }
 
     const randomName = []
@@ -78,4 +78,4 @@ class Gen1 extends React.Component {
   } 
 }
 
-export default Gen1
+export default Gen2

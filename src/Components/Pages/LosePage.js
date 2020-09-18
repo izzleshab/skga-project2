@@ -4,10 +4,6 @@ import Pokelose from '../../Images/pokelose.gif'
 import { Link } from 'react-router-dom'
 
 class LosePage extends React.Component {
-  state = {
-
-  }
-
   render () {
     return (
       <section>
@@ -20,8 +16,8 @@ class LosePage extends React.Component {
           </figure>
         </div>
         <div>
-          <Link to="/GamePage" className="button is-medium is-success is-light has-border-white">Play Again</Link>
-          <Link to="/" className="button is-medium is-danger has-border-white">Back to the Homepage</Link>
+          <Link to="/GamePage1" className="button is-medium is-success is-light has-border-white">Play Again</Link>
+          <Link to="/" className="button is-medium is-danger is-light has-border-white">Back to the Homepage</Link>
         </div>
       </section>
     )

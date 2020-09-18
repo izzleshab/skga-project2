@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Pokehello from '../../Images/hello.gif'
-// import Gen1 from './Components/Pokemon/gen1'
-
 
 const HomePage = () => {
   return (
@@ -17,9 +15,9 @@ const HomePage = () => {
         <img src={Pokehello} alt="pokehello"/>
       </figure>
       <div>
-        <Link to="/GamePage" className="button is-large is-link">Easy</Link>
-        <Link to="/GamePage" className="button is-large is-warning">Medium</Link>
-        <Link to="/GamePage" className="button is-large is-danger">Hard</Link>
+        <Link to="/GamePage1" className="button is-large is-link is-light">Easy</Link>
+        <Link to="/GamePage2" className="button is-large is-success is-light is-focus">Medium</Link>
+        <Link to="/GamePage3" className="button is-large is-danger is-light">Hard</Link>
       </div>   
     </div>
   )

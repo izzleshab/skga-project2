@@ -1,8 +1,8 @@
-
 body {
   margin: 0; 
   height: 10%; 
   overflow: hidden;
+  font-family: fantasy;
 }
 
 .button {
@@ -16,3 +16,6 @@ img {
   margin: 0 auto;
 }
 
+#links {
+  border: 1px solid green;
+}
