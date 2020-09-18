@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 import { getPokemon } from '../../lib/api'
+import GamePage from '../Pages/GamePage'
 
 export class Gen1 extends React.Component {
   state = {
@@ -19,8 +20,7 @@ export class Gen1 extends React.Component {
       pokemon: pokeName,
       pokeImage: pokeImage
     })
-
-    component.forceUpdate(callback)
+    // this.forceUpdate()
   }
   // window.location.reload()
 
@@ -43,10 +43,8 @@ export class Gen1 extends React.Component {
         <Link to="/WinPage" className="button is-large is-link is-light has-border-white">Pokemon #2</Link>     
         <Link to="/LosePage" className="button is-large is-success is-light has-border-white">Pokemon #3</Link>
         <Link to="/LosePage" className="button is-large is-warning is-light has-border-white">Pokemon #4</Link>
-
         <div>
-          <Link to="/" className="button is-medium is-center is-link has-border-white">HomePage
-          </Link>
+          <Link to="/" className="button is-medium is-danger is has-border-white">HomePage</Link>
         </div>
       </section>
     )

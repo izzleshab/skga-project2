@@ -18,8 +18,8 @@ class WinPage extends React.Component {
             <figure className="image-is-100x100">
               <img src={Pokewin} alt="pokewin"/>
             </figure>
-            <Link to="/GamePage" className="button is-medium is-danger is-light has-border-white">Play Again</Link>
-            <Link to="/" className="button is-medium is-center is-link has-border-white">Back to the Homepage</Link>
+            <Link to="/GamePage" className="button is-medium is-success is-light has-border-white">Play Again</Link>
+            <Link to="/" className="button is-medium is-danger has-border-white">Back to the Homepage</Link>
           </div>
         </div>
       </section>

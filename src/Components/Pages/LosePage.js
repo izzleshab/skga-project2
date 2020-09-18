@@ -20,8 +20,8 @@ class LosePage extends React.Component {
           </figure>
         </div>
         <div>
-          <Link to="/GamePage" className="button is-medium is-center is-link has-border-white">Try Again</Link>
-          <Link to="/" className="button is-medium is-center is-link has-border-white">Back to the Homepage</Link>
+          <Link to="/GamePage" className="button is-medium is-success is-light has-border-white">Play Again</Link>
+          <Link to="/" className="button is-medium is-danger has-border-white">Back to the Homepage</Link>
         </div>
       </section>
     )
