@@ -1,12 +1,16 @@
 import axios from 'axios'
 
-const baseUrl = 'https://pokeapi.co/api/v2'
-const pokeImages = 'https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon'
 
-export const getAllPokemon = () => {
-  return axios.get(`${baseUrl}/generation/1/`)
+const baseUrl = 'https://pokeapi.co/api/v2/pokemon'
+
+
+const randomNum = Math.floor(Math.random() * 151)
+console.log(randomNum)
+export const getPokemon = () => {
+  return axios.get(`${baseUrl}/${randomNum}/`)
 }
 
-export const getAllPokeImages = () => {
-  return axios.get(`${pokeImages}`)
-}
+
+// export const getAllPokeUrl = () => {
+//   return axios.get(`${props.allPokemonList.map(pokemon => pokemon.url)}`)
+// }
