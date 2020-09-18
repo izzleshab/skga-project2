@@ -6,29 +6,21 @@ import Pokehello from '../../Images/hello.gif'
 
 const HomePage = () => {
   return (
-  // console.log({ Gen1 }),
-
-    <div className="box-background-color-is-green">
-
+    <div className="section">
       <h1 className="title is-1 has-text-centered has-text-black">
         Welcome to Guess that Pokemon! 
       </h1>
-
       <h2 className="title is-3  has-text-centered has-text-black">
         Choose a difficulty!
       </h2>
-
-      <Link to="/GamePage" className="button is-large is-centered is-black has-border-white">Easy
-      </Link>
-
-      {/* <button className="button is-large is-center is-black">Medium</button>
-
-      <button className="button is-large is-center is-black">Hard</button> */}
-
-      <figure className="image-is-128x128 is-center">
+      <figure className="imageis-140x140">
         <img src={Pokehello} alt="pokehello"/>
       </figure>
-
+      <div>
+        <Link to="/GamePage" className="button is-large is-link">Easy</Link>
+        <Link to="/GamePage" className="button is-large is-warning">Medium</Link>
+        <Link to="/GamePage" className="button is-large is-danger">Hard</Link>
+      </div>   
     </div>
   )
 }
