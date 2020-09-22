@@ -3,7 +3,7 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.minimap.enabled": false,
-  "workbench.iconTheme": "file-icons",
+  "workbench.iconTheme": "vscode-icons",
   "editor.wordWrap": "on",
   "eslint.alwaysShowStatus": true,
   "window.zoomLevel": 1,

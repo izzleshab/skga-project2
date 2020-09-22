@@ -67,9 +67,9 @@ class Gen2 extends React.Component {
           {this.state.arrayNames.map(obj => {
             return ( 
               obj.correct ? 
-                <Link to="/WinPage" className={obj.classNames} id = "links">{this.capitalize(obj.name)}</Link>
+                <Link to="/WinPage2" className={obj.classNames} id = "links">{this.capitalize(obj.name)}</Link>
                 :
-                <Link to="/LosePage" className={obj.classNames} id = "links">{this.capitalize(obj.name)}</Link>
+                <Link to="/LosePage2" className={obj.classNames} id = "links">{this.capitalize(obj.name)}</Link>
             )
           })}
         </div>

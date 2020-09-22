@@ -10,6 +10,7 @@ import GamePage2 from './Components/Pages/GamePage2'
 
 
 const App = () => {
+  
   return (
     <BrowserRouter>
       <Switch>
