@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-// import gen1 from '../Pokemon/gen1'
+
 
 import HomePage from './Components/Pages/HomePage'
 import GamePage1 from './Components/Pages/GamePage1'
@@ -20,15 +20,15 @@ const App = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={HomePage}/>
-        <Route exact path="/GamePage1" component={GamePage1} />
+        <Route path="/GamePage1" component={GamePage1} />
+        <Route path ="/GamePage2" component={GamePage2} />
+        <Route path ="/GamePage3" component={GamePage3} />
         <Route path="/WinPage" component={WinPage} />
         <Route path="/WinPage2" component={WinPage2} />
         <Route path="/WinPage3" component={WinPage3} />
         <Route path="/LosePage" component={LosePage} />
-        <Route path="/LosePage" component={LosePage2} />
-        <Route path="/LosePage" component={LosePage3} />
-        <Route path ="/GamePage2" component={GamePage2} />
-        <Route path ="/GamePage2" component={GamePage3} />
+        <Route path="/LosePage2" component={LosePage2} />
+        <Route path="/LosePage3" component={LosePage3} />
       </Switch>
     </BrowserRouter>
     
