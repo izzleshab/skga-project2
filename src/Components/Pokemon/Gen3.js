@@ -61,7 +61,7 @@ class Gen3 extends React.Component {
         <h1 className="title is-1 has-text-centered has-text-black"> 
           Click the name of the Pokemon below!</h1>
         <div style={{ textAlign: 'center' }}>
-          <img src={pokeImage} alt="thth"/>
+          <img src={pokeImage} alt="LOADING POKEMON"/>
         </div>
         <div>
           {this.state.arrayNames.map(obj => {
