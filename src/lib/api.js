@@ -23,3 +23,14 @@ export const getPokemon2 = () => {
 export const getPokemonRandomArray2 = () => {
   return axios.get('https://pokeapi.co/api/v2/pokemon?offset=20&limit=251')
 }
+
+// HARD MODE
+
+export const getPokemon3 = () => {
+  const randomNum = Math.ceil(Math.random() * 386)
+  return axios.get(`${baseUrl}/${randomNum}/`)
+}
+
+export const getPokemonRandomArray3 = () => {
+  return axios.get('https://pokeapi.co/api/v2/pokemon?offset=20&limit=386')
+}

@@ -16,7 +16,7 @@ class LosePage2 extends React.Component {
           </figure>
         </div>
         <div>
-          <Link to="/GamePage1" className="button is-medium is-success is-light has-border-white">Play Again</Link>
+          <Link to="/GamePage2" className="button is-medium is-success is-light has-border-white">Play Again</Link>
           <Link to="/" className="button is-medium is-danger is-light has-border-white">Back to the Homepage</Link>
         </div>
       </section>
