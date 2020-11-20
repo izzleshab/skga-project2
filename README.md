@@ -1,6 +1,6 @@
 # Guess That Pokemon! - GA Project Two 
 
-My second project as part of the Software Engineering Immersive course - A React app pair-coded with my GA classmate [Giacinto A.](githublink) for the 48-hour GA hackathon.
+My second project as part of the Software Engineering Immersive course - A React app pair-coded with my GA classmate [Giacinto A.](https://github.com/yachynto) for the 48-hour GA hackathon.
 
 Guess That Pokemon! was deployed with Netlify and is available [here](https://izzleshab-project-2.netlify.app/).
 
@@ -35,13 +35,12 @@ We began by discussing what sort of API we would like to use, and as both of us 
 
 For this project we opted to use the first generation of 151 Pokemon for the 'easy' difficulty. The 'medium' difficulty adds an additional 100 pokemon from the second generation of Pokemon. The 'hard' difficulty adds an additional 135 Pokemon from generation three. 
 
-We then took the following steps to produce the app:
+I then took the following steps as part of my contribution to produce the app:
 
-- We produced hand drawn wireframes for the home page, question page, win page and loss page to guide the development process
-- We produced the required pages as React components.
-- We used React-router-dom to link between our various pages seemlessly.
-- We produced the game logic
-- We added light styling using a combination of Bulma and SCSS.
+- I produced hand drawn wirefrmes for the home page, question page, win page and loss page to guide the development process.  
+- I produced the required pages as React components.
+- I used React-router-dom to link between our various pages seemlessly.
+- I added light styling using a combination of Bulma and SCSS.
 
 ## API Requests
 
@@ -169,6 +168,12 @@ Making two seperate axios calls and ensuring the URL's for both were correct was
 Working through our challenges to find working solutions were great wins for my partner and I. Working in a pair and having someone else to bounce ideas off and discuss methods of creating the app was very beneficial for my learning. 
 
 
-## Future features
+## Future Features
 
 As this was a hackathon, the time alotted to compelete the app was very short, thus lots of features we wanted implemented had to be cut from the app to meet the final deadline. The future feature I am most interested in implementing is a score system, where a user can visually see their score as they engage with the app.
+
+## Key Learnings
+
+This was my first pair coded project. The benefits of having a partner to bounce ideas off and talk through is very valuable during the development process, as the development process can be very quickly mapped out and streamed lined with proper responsibility delegation, allowing MVP to be reached in a timely manner. 
+
+Additionally, having the pressure of time taught my partner and I to prioritize the most important elements of a full-stack project. Namely, the backend and API calls, as without these the whole app would not function. While I was completing my front-end responsibilities, anytime my partner was stuck with the back-end side we would combine our efforts to solve and troubleshoot the problem before I would go back to the front-end. The aspect of troubleshooting helped bolster my knowledge of back-end work and was a great learning experience.
